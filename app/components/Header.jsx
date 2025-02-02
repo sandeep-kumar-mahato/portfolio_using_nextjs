@@ -29,7 +29,7 @@ const Header = () => {
         transition={{ duration: 0.8, delay: 0.5 }}
         className="text-3xl sm:text-6xl lg:text-[66px] font-Ovo"
       >
-        Frontend web developer based in London
+        Frontend web developer based in India
       </motion.h1>
       <motion.p
         initial={{ opacity: 0 }}
@@ -37,9 +37,7 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.7 }}
         className="max-w-2xl mx-auto font-Ovo"
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem unde
-        sint ad, molestiae esse architecto amet, perferendis et dolorem eius,
-        dolore provident. Aliquid dolor vel architecto neque officia vitae sit!
+        I'm a Frontend Developer crafting responsive, user-friendly web experiences with React and Next.js. Let's build something amazing!
       </motion.p>
 
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
@@ -58,7 +56,7 @@ const Header = () => {
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 1.2 }}
-          href="/sample-resume.pdf"
+          href="/Resume.pdf"
           download
           className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black"
         >

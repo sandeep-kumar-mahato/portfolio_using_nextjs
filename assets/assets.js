@@ -1,4 +1,4 @@
-import user_image from './user-image.png';
+import user_image from './user-image.jpg';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -78,24 +78,28 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
+        title: 'Glowvista Instruments',
         description: 'Web Design',
         bgImage: '/work-1.png',
+        link: 'https://www.glowvistainstruments.com/',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Conference app',
+        description: 'Web App',
         bgImage: '/work-2.png',
+        link: 'https://sandeep-kumar-mahato.github.io/nbc2022/',
     },
     {
-        title: 'Photography site',
+        title: 'College site',
         description: 'Web Design',
         bgImage: '/work-3.png',
+        link: 'https://sandeep-kumar-mahato.github.io/College-Website/',
     },
     {
-        title: 'UI/UX designing',
+        title: 'UI/UX E-Commerce',
         description: 'UI/UX Design',
         bgImage: '/work-4.png',
+        link: 'https://sandeep-kumar-mahato.github.io/Landing-Page-e-commerce-website/',
     },
 ]
 
@@ -108,7 +112,7 @@ export const serviceData = [
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in BioMedical Engineering' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 

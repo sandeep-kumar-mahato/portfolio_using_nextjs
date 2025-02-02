@@ -18,7 +18,7 @@ const Footer = ({ isDarkMode }) => {
             alt="mail-icon"
             className="w-6"
           />
-          info@yourdomain.com
+          sandeepkumarmahato712@gmail.com
         </div>
       </div>
 
@@ -26,17 +26,17 @@ const Footer = ({ isDarkMode }) => {
         <p>&copy; 2025 Sandeep Kumar. All rights reserved</p>
         <ul className="flex items-center gap-10 justify-center mt-4 sm:mt-0">
           <li>
-            <a target="_blank" href="">
+            <a target="_blank" href="https://github.com/sandeep-kumar-mahato">
               Github
             </a>
           </li>
           <li>
-            <a target="_blank" href="">
+            <a target="_blank" href="https://www.linkedin.com/in/sandeep-kumar-793200208/">
               LinkedIn
             </a>
           </li>
           <li>
-            <a target="_blank" href="">
+            <a target="_blank" href="https://www.instagram.com/sandeep.mahato.3726/">
               Instagram
             </a>
           </li>

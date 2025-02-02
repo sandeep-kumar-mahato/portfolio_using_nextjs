@@ -33,7 +33,7 @@ const About = ({ isDarkMode }) => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 0.8 }}
-        className="flex w-full flex-col lg:flex-row items-center gap-20 my-20"
+        className="flex w-full flex-col lg:flex-row items-center gap-20 my-14"
       >
         <motion.div
           initial={{ scale: 0.9, opacity: 0 }}
@@ -54,9 +54,7 @@ const About = ({ isDarkMode }) => {
           className="flex-1"
         >
           <p className="mb-10 max-w-2xl font-Ovo">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat
-            obcaecati tempore, at suscipit harum sed sapiente eum rem!
-            Doloremque corrupti, vero rerum voluptate corporis quo?
+          I am a Frontend Developer with expertise in React, JavaScript, HTML, and CSS. Passionate about creating responsive, user-friendly web applications, I focus on UI/UX design and performance optimization.
           </p>
 
           <motion.ul
